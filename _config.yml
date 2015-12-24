@@ -19,3 +19,14 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+navbar-links:
+  Homepage: ""
+  About Me: "about"
+  Blog: "blog"
+  Course: "course"
+  
+#pageinitiator holds the number of posts per page
+#gems: [jekyll-paginate]
+paginate: 1
+paginate_path: "page:num"

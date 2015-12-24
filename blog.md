@@ -69,41 +69,7 @@ title: Blog
                         {% endif %}
                     </div>
                  </div>
-                <div class="col-md-3 col-sm-5">
-                    <div class="sidebar blog-sidebar">
-                        <div class="sidebar-item  recent">
-                            <h3>Posts</h3>
-                             <ul class="post-list">
-                        {% for post in site.posts %}
-                        <li>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img width="52" height="52" src="images/{{post.title}}.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body">
-                                    <h4><a href="#">{{post.title}}</a></h4>
-                                    <p>posted on  {{post.date | date: "%B, %-d, %Y"}}</p>
-                                </div>
-                            </div>
-                            </li>
-                              {% endfor %}
-                            </ul>
-                        </div>
-                        <div class="sidebar-item popular">
-                            <h3>Latest Photos</h3>
-                           <table>
-                           <tbody>
-                           <tr><td style="margin-left:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td>
-                           </tr>
-                           <tr><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td>
-                           </tr>
-                           <tr><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td><td style="margin:10px;"><a href="#"><img width="66px" height="66px" src="images/7.jpg" alt=""></a></td>
-                           </tr>
-                           </tbody>
-                           </table>
-                        </div>
-                    </div>
-                </div>
+               {%include sidebar.html%}
             </div>
         </div>
     </section>

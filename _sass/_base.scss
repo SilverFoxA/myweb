@@ -100,7 +100,9 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        font-weight: 600;
+        color: cadetblue;
+        text-decoration: none;
     }
 }
 
@@ -156,10 +158,10 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
+//    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+//    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: 10%;  
+    margin-left: 10%;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;

@@ -9,6 +9,7 @@
 //    // Positioning context for the mobile navigation icon
 //    position: relative;
     width: 100%;
+    z-index: 1000;
     margin-top: 0px;
     position: fixed;
   background-color: #204E4E;
@@ -23,6 +24,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    margin-left: 10px;
     
 
     &,
@@ -193,6 +195,9 @@
     > li {
         margin-bottom: $spacing-unit;
     }
+}
+.post-list a{
+color: #337ab7;
 }
 
 .post-meta {
@@ -418,3 +423,17 @@ span .read:hover{
 .footer_wrapper h2 {
     color: $nav-item-color;
 }
+
+
+
+#header {
+    width: 100%;
+    z-index: 1000;
+    margin-top: 0px;
+  position: fixed;
+  background-color: #204E4E;
+  background-position: top;
+  background-size: contain;
+}
+
+

@@ -205,8 +205,7 @@
   }
 
   #header {
-    padding-bottom: 40px;
-    padding-top: 10px;
+      background-color: $nav-item-color;
   }
 
   .social-icons.pull-right{
@@ -262,6 +261,7 @@
 
   #header .navbar-nav.navbar-right li > a {
     padding: 10px 0;
+      margin-left: 10px;
   }
 
   #header .navbar-nav li ul.sub-menu li a {

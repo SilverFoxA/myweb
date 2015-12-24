@@ -14,4 +14,16 @@ jQuery(function($) {'use strict';
 			form_status.html('<p class="text-success">Thank you for contacting us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
 		});
 	});
+           
+});
+$(function() {
+ var $nav_active = $(' #header ul li');
+        $($nav_active).on("click", function() {
+
+		// Remove class from active tab
+		$($nav_active).removeClass("active");
+
+		// Add class active to clicked tab
+		$(this).addClass("active");
+        });
 });

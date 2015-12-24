@@ -439,7 +439,7 @@ span .read:hover{
 
 
 .blog-items {
-    margin-right: 20%;
+//    margin-right: 20%;
     margin-left: -7%;
 }
 
@@ -480,7 +480,6 @@ Blog Default
 .post-overlay{
   position: absolute;
   top: 50%;
-    background-color: cadetblue;
   display: none;
   width: 94px;
   height: 140px;
@@ -632,7 +631,7 @@ Blog with right sidebar
 *****************************/
 
 .single-blog{
-  padding-bottom: 30px;
+//  padding-bottom: 30px;
 }
 
 .single-blog .post-bottom{
@@ -647,7 +646,7 @@ Blog with right sidebar
   margin-left: 0;
   width: 94px;
   height: 140px;
-  background: url(../images/blog/blog-arrow.png);
+  background: url(../images/blog-arrow.png);
   -webkit-animation: fadeInLeft 400ms;
   animation: fadeInLeft 400ms;
 }
@@ -829,4 +828,31 @@ Blog with right sidebar
 .sidebar-item .media .media-body p {
   color: #b4b4b4;
   font-size: 12px;
+}
+
+.blog_wrapper {
+//    margin-right: 10%;  
+//    margin-left: 10%;
+//    padding-right: $spacing-unit;
+//    padding-left: $spacing-unit;
+//    @extend %clearfix;
+
+//    @include media-query($on-laptop) {
+////        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+////        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+//        padding-right: $spacing-unit / 2;
+//        padding-left: $spacing-unit / 2;
+//    }
+}
+
+@media all and (max-width: 780px) {
+  .blog-items {
+//    margin-right: 20%;
+    margin: 0 auto;
+      width: auto;
+}
+    .wrapper{
+    margin-left: 0px;
+        
+    }
 }

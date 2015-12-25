@@ -20,13 +20,16 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 
-navbar-links:
-  Homepage: ""
-  About Me: "about"
-  Course: "course"
-  Blog : "/myweb/blog/"
   
 #pageinitiator holds the number of posts per page
-#gems: [jekyll-paginate]
-paginate: 1
-paginate_path: "/blog/page:num"
+#gems:
+#  - octopress-paginate
+#paginate_path: "/blog/page:num"
+
+#pagination:
+# # collection:   post
+#  per_page:     1             # maximum number of items per page 
+#  limit:        false              # Maximum number of pages to paginate (false for unlimited)
+# # permalink:    blog/page:num/     # pagination path (relative to template page)
+##  title_suffix: " - page :num" # Append to template's page title
+# 

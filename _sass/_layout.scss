@@ -29,7 +29,7 @@
 
     &,
     &:visited {
-        color: $nav-item-color;
+        color: black;
     }
 }
 
@@ -107,12 +107,21 @@
  * Site footer
  */
 .site-footer {
-//     padding-bottom: 10px;
-    margin-bottom: 0px;
     position: absolute;
-  background-color: #504E4E;
-  background-position: bottom;
-  background-size: contain;
+background-image: url('/images/footer.png');
+//  background-position: center;
+    background-color: #ECEBEB;
+  background-size: cover;
+}
+
+@media (max-width: 780px){
+.site-footer {
+    position: absolute;
+background-image: url('/images/footer.png');
+ background-position: center;
+    background-color: #ECEBEB;
+  background-size: cover;
+}
 }
 
 .footer-heading {
@@ -181,7 +190,7 @@
  * Page content
  */
 .page-content {
-    padding: ($spacing-unit*2) 0;
+    padding: ($spacing-unit*2)-5px 0;
 }
 
 .page-heading {
@@ -289,7 +298,7 @@ span .read:hover{
 
 
 .footer_wrapper {
-    margin-right: 5%;  
+//    margin-right: 5%;  
     margin-left: 5%;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
@@ -342,7 +351,7 @@ span .read:hover{
   content: '"';
   font-size: 40px;
   color: #00CAEA;
-  font-family: 'Noto Sans', sans-serif;
+//  font-family: 'Noto Sans', sans-serif;
   transform:rotate(180deg);
   -ms-transform:rotate(180deg); /* IE 9 */
   -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
@@ -356,7 +365,7 @@ span .read:hover{
   content: '"';
   font-size: 40px;
   color: #00CAEA;
-  font-family: 'Noto Sans', sans-serif;
+//  font-family: 'Noto Sans', sans-serif;
   line-height: 0;
 }
 
@@ -423,7 +432,7 @@ span .read:hover{
 }
 
 .footer_wrapper h2 {
-    color: $nav-item-color;
+    color: black;
 }
 
 
@@ -852,10 +861,269 @@ Blog with right sidebar
 //    margin-right: 20%;
     margin: 0 auto;
       width: auto;
-}
+  }
     .wrapper{
     margin-left: 0px;
         margin-right: 0px;
         
     }
 }
+.section_index {
+    margin-left: -10%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+
+.footer_bottom {
+    z-index: 1000;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section0 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+}
+
+.check {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.changer {
+    position: relative;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+
+
+/*************************
+*******About Us Page******
+**************************/
+
+#action , 
+#page-breadcrumb{
+  position: relative;
+}
+
+#page-breadcrumb {
+  background-image: url(../images/home/tour-bg.png);
+  background-color: #fbfafa;
+  background-repeat: repeat-x;
+  height: 130px;
+  background-position: center;
+  display: table;
+  position: static;
+  width: 100%;
+}
+
+#team {
+  padding: 30px 0;
+}
+
+#team-carousel {
+  margin-top: 80px;
+}
+
+#company-information .padding-top{
+  padding-top: 10px;
+  
+}
+
+.single-service img {
+  height: 85px;
+}
+
+.tour-button {
+  background-image: url(../images/home/tour-icon2.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-position: 151px 4px;
+}
+
+.about-image {
+  padding:90px 90px 0;
+}
+
+.team-single {
+  position: relative;
+}
+
+.person-thumb {
+  position: relative;
+}
+
+.person-thumb img {
+}
+
+
+.social-profile {
+  background: none repeat scroll 0 0 rgba(137, 97, 46, 0.8);
+  display: none;
+  position: absolute;
+  text-align: center;
+  top: 0;
+    -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;transition: all 0.9s ease 0s;
+  width: 100%;
+  height: 100%;
+}
+
+.team-single:hover .social-profile{
+  background:rgba(112, 35, 64, 0.9);
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.social-profile .nav-pills {
+  display: inline-block;
+  margin-top: -26px;
+  padding: 0;
+  position: relative;
+  top: 50%;
+}
+
+.social-profile .nav-pills li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-profile .nav-pills li a {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+  border-radius: 40px;
+  -webkit-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.social-profile .nav-pills li a:hover {
+  color: #702340;
+  border-color: #702340;
+}
+
+.person-info h2 {
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.person-info h3 {
+  font-size: 16px;
+  color: #686868;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.team-carousel-control {
+  position: absolute;
+  top: 36%;
+  width: 13px;
+  height: 16px;
+  text-indent: -9999999px;
+  -webkit-transition: all 0.9s ease;
+  -moz-transition: all 0.9s ease;
+  -ms-transition: all 0.9s ease;
+  -o-transition: all 0.9s ease;
+  transition: all 0.9s ease;
+}
+
+.right.team-carousel-control {
+  right: -50px;
+  background-image: url(../images/aboutus/right.png);
+}
+
+.left.team-carousel-control {
+  left: -50px;
+  background-image: url(../images/aboutus/left.png);
+}
+
+.team-carousel-control:hover{
+  background-position: 0 -18px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;  
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.count h1{
+  font-size: 60px;
+  color: #00aeef;
+}
+
+.count h3{
+  font-size: 16px;
+}
+
+.progress .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -ms-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition:  width 1s ease-in-out;
+}
+
+.top-zero{
+  margin-top: 0;
+}
+
+h3.top-zero{
+  font-size: 20px;
+}
+
+#company-information .about-us h2{
+  margin-bottom: 45px;
+}
+
+.single-skill h3{
+  font-size: 16px;
+}
+
+.progress{
+  height: 30px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.progress-bar{
+  line-height: 30px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.progress-bar.progress-bar-primary{
+  background: #00aeef;
+}
+
+
+

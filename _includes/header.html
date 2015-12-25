@@ -31,7 +31,7 @@
 -->
 
 <header id="header">      
-        <div class="navbar" role="banner" style="background-color:#504E4E;">
+        <div class="navbar" role="banner" style="background-color:#ECEBEB;">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,10 +50,10 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a class="page-link" href="{{site.baseurl}}/" style="color:white;">Home</a></li>
+                        <li class="active"><a class="page-link" href="{{site.baseurl}}/" style="color:black;">Home</a></li>
                         {% for my_page in site.pages %}
                         {% if my_page.title %}
-                        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color:white;">{{ my_page.title }}</a></li>
+                        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color:black;">{{ my_page.title }}</a></li>
                         {% endif %}
                         {% endfor %}
                     </ul>

@@ -26,7 +26,7 @@ title: Blog
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h1>
 -->
-          <span class="post-meta">{{ post.date | date: "%B %-d, %Y  " }}<span style="margin-left:10px;"> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">5</a></span></span>
+          <span class="post-meta">{{ post.date | date: "%B %-d, %Y  " }}<span style="margin-left:10px;"> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 comments</a></span></span>
           <div class="preview">
              <br/> {{ post.content }} 
           </div><br/>

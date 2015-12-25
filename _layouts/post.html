@@ -17,8 +17,6 @@ layout: default
 </article>
 -->
 
-
-
 <section class="blog-details" style="padding-top:20px;">
         <div class="container">
             <div class="row">
@@ -27,7 +25,7 @@ layout: default
                          <div class="col-md-12 col-sm-12">
                             <div class="single-blog blog-details two-column">
                                 <div class="post-thumb">
-                                    <img src="{{site.baseurl}}//images/{{page.title}}.jpg" class="img-responsive" alt="">
+                                    <img src="{{site.baseurl}}/images/{{page.title}}.jpg" class="img-responsive" alt="">
 <!--
                                     <div class="post-overlay">
                                         <span class="uppercase">{{ page.date | date: "%-d" }} <br><small>{{ page.date | date: "%b" }}</small></span>
@@ -49,12 +47,9 @@ layout: default
                                     </div>
 -->
                                     <div class="blog-share">
-                                        <span class='st_facebook_hcount'></span>
-                                        <span class='st_twitter_hcount'></span>
-                                        <span class='st_linkedin_hcount'></span>
-                                        <span class='st_pinterest_hcount'></span>
-                                        <span class='st_email_hcount'></span>
+                                        {%include share.html%}
                                     </div>
+                                
                                     <div class="response-area">
                                     <h2 class="bold">Comments</h2>
                                    <div id="disqus_thread"></div>

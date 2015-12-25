@@ -23,10 +23,10 @@ markdown: kramdown
 navbar-links:
   Homepage: ""
   About Me: "about"
-  Blog: "blog"
   Course: "course"
+  Blog : "/myweb/blog/"
   
 #pageinitiator holds the number of posts per page
 #gems: [jekyll-paginate]
 paginate: 1
-paginate_path: "page:num"
+paginate_path: "/blog/page:num"

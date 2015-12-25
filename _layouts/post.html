@@ -17,11 +17,12 @@ layout: default
 </article>
 -->
 
-<section class="blog-details" style="padding-top:20px;">
+<section class="blog-items" style="padding-top:20px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-sm-7">
-                    <div class="row">
+                     <span>/<a href="{{site.baseurl}}/blog/">Blog</a>/{{page.title}}</span>
+                    <div class="row" style="margin-top:20px;">
                          <div class="col-md-12 col-sm-12">
                             <div class="single-blog blog-details two-column">
                                 <div class="post-thumb">
@@ -45,7 +46,19 @@ layout: default
                                             <li><a href="#"><i class="fa fa-comments"></i>3 Comments</a></li>
                                         </ul>
                                     </div>
--->
+--> 
+                                <ul class="pager blog-pager">
+        {% if page.previous.url %}
+        <li class="previous">
+          <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+        </li>
+        {% endif %}
+        {% if page.next.url %}
+        <li class="next">
+          <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+        </li>
+        {% endif %}
+      </ul>
                                     <div class="blog-share">
                                         {%include share.html%}
                                     </div>

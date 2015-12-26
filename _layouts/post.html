@@ -21,7 +21,12 @@ layout: default
         <div class="container">
             <div class="row">
                 <div class="col-md-9 col-sm-7">
-                     <span>/<a href="{{site.baseurl}}/blog/">Blog</a>/{{page.title}}</span>
+                    <ol class="breadcrumb" style="margin-left:0px;">
+                    <li><a href="{{site.baseurl}}/blog/">Blog</a>
+                    </li>
+                    <li class="active">{{page.title}}</li>
+                </ol>
+<!--                     <span>/<a href="{{site.baseurl}}/blog/">Blog</a>/{{page.title}}</span>-->
                     <div class="row" style="margin-top:20px;">
                          <div class="col-md-12 col-sm-12">
                             <div class="single-blog blog-details two-column">
@@ -35,7 +40,7 @@ layout: default
                                 </div>
                                 <div class="post-content overflow">
                                     <h2 class="post-title bold">{{ page.title }}</h2>
-                                    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B , %Y" }}</time>
+                                    <p class="post-meta">Posted on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time>
                                     {% if page.author %} •  <h3 class="post-author">{{ page.author }}</h3>{% endif %}</p>
                                     <p>{{content}}</p>
 <!--

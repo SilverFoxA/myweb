@@ -145,7 +145,8 @@
                     'position' : 'fixed',
                     'top' : base.options.bottom == -1?getMarginTop():'',
                     'bottom' : base.options.bottom == -1?'':base.options.bottom,
-                    'margin-left' : '0px'
+                    'margin-left' : '0px',
+                    'background-color' : '#ECEBEB'
                 }
                 if (!base.options.dontSetWidth){ cssOptions['width']=target.width(); };
 
@@ -203,7 +204,8 @@
                     'position' : originalPosition,
                     'left' : '',
                     'top' : originalOffsetTop,
-                    'margin-left' : ''
+                    'margin-left' : '',
+                    'background-color' : '#fff'
                 });
 
                 target.removeClass('scroll-to-fixed-fixed');

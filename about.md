@@ -3,9 +3,6 @@ layout: page_no_wrapper
 title: About
 ---
 
-
-
-
  <section id="company-information" class="wow fadeIn" style="padding: 30px 0;" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="container">
             <div >
@@ -38,7 +35,7 @@ title: About
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <div class="col-sm-3 col-xs-6">
+                            <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -58,7 +55,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -78,47 +75,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
-                                <div class="team-single-wrapper">
-                                    <div class="team-single">
-                                        <div class="person-thumb">
-                                            <img src="{{site.baseurl}}/images/1.jpg" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="social-profile">
-                                            <ul class="nav nav-pills">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="person-info">
-                                        <h2>Rahul Borawane</h2>
-                                        <p>Chief Administrative Officer (CAO)</p>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-sm-3 col-xs-6">
-                                <div class="team-single-wrapper">
-                                    <div class="team-single">
-                                        <div class="person-thumb">
-                                            <img src="{{site.baseurl}}/images/1.jpg" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="social-profile">
-                                            <ul class="nav nav-pills">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="person-info">
-                                        <h2>Vivek Bengre</h2>
-                                        <p>Chief Technical Officer (CTO)</p>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-sm-3 col-xs-6">
+                            <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -138,7 +95,47 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="{{site.baseurl}}/images/1.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info">
+                                        <h2>Rahul Borawane</h2>
+                                        <p>Chief Administrative Officer (CAO)</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="{{site.baseurl}}/images/1.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info">
+                                        <h2>Vivek Bengre</h2>
+                                        <p>Chief Technical Officer (CTO)</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -154,11 +151,11 @@ title: About
                                     </div>
                                     <div class="person-info">
                                         <h2>Jaykisshan K.</h2>
-                                        <p>Chief Finance Officer (CMO)</p>
+                                        <p>Chief Finance Officer (CFO)</p>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -178,7 +175,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -198,7 +195,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -218,7 +215,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -238,7 +235,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
@@ -258,7 +255,7 @@ title: About
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-3 col-xs-6">
+                             <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">

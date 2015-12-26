@@ -4,13 +4,38 @@
   {% include head.html %}
 
   <body>
+    <div class="page-content" style="padding:0px;">
+    <div style="width:100%; height:100%; position:absolute;">
+         <img  width="100%" height="100%" src="{{site.baseurl}}/images/7.jpg"/>
+            <nav class="main-nav-outer" id="test"><!--main-nav-start-->
+	           <div class="container">
+                    <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                 <a class="site-title" href="{{ site.baseurl }}/" style="text-decoration:none;">
+                                    <span><img  width="55px" height="50px" src="{{site.baseurl}}/images/club_logo_5.png" alt="logo" style="margin-bottom:2px;"/><span> {{ site.title }}</span></span>
+                                </a>
+                            </div>
+                    <div class="collapse navbar-collapse">
+                    <ul class="main-nav nav navbar-nav navbar-right">
+                        <li class="active"><a class="page-link" href="{{site.baseurl}}/" style="color:black;">Home</a></li>
+                                    {% for my_page in site.pages %}
+                                    {% if my_page.title %}
+                                    <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color:black;">
+                                        {{ my_page.title }}</a></li>
+                                    {% endif %}
+                                    {% endfor %}
+                    </ul>
+                    </div>
+            <!--        <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>-->
+                </div>
+            </nav><!--main-nav-end-->
 
-    {% include header.html %}
-    
-    <div class="page-content">
-        <div style="width:100%; height:100%; position:absolute;">
-        <img  width="100%" height="100%" src="{{site.baseurl}}/images/7.jpg"/>
-             
+
             <div class="no-wrapper">
                 {{ content }}
             </div>
@@ -18,7 +43,7 @@
 
         </div>
     </div>
-      {{% include scripts.html %}}
+      {% include scripts.html %}
   </body>
 
 </html>

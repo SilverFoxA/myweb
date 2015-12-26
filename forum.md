@@ -1,4 +1,4 @@
 ---
 layout: page_no_wrapper
-title: Courses
+title: Forum
 ---

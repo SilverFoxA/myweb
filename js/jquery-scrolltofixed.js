@@ -200,12 +200,12 @@
                 // This will reverse the target back to the its original style.
                 target.css({
                     'z-index' : originalZIndex,
-                    'width' : '',
+                    'width' : '100%',
                     'position' : originalPosition,
                     'left' : '',
                     'top' : originalOffsetTop,
                     'margin-left' : '',
-                    'background-color' : '#fff'
+                    'background-color' : 'transparent'
                 });
 
                 target.removeClass('scroll-to-fixed-fixed');

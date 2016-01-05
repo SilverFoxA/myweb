@@ -3,7 +3,7 @@
                         <div class="sidebar-item  recent wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
                             <h3>Posts</h3>
                              <ul class="post-list">
-                        {% for post in site.posts %}
+                        {% for post in site.posts limit:5 %}
                         <li>
                             <div class="media">
                                 <div class="pull-left">

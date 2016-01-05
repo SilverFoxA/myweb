@@ -6,6 +6,7 @@ title: Portfolio
 <section id="portfolio">
         <div class="container">
             <div class="row">
+            <div class="col-md-9 col-sm-7">
             <div id="filters" class="sixteen columns">
                 <ul class="clearfix">
                     <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
@@ -17,20 +18,8 @@ title: Portfolio
                     <li><a class="" href="#" data-filter=".mockup"><h5>Mockup</h5></a></li>
                 </ul><!--/#portfolio-filter-->
                 </div>
-                
-                <!-- Portfolio Filters -->
-<!--
-    <div id="filters" class="sixteen columns">
-      <ul class="clearfix">
-        
-      </ul>
-    </div>
--->
-<!--    /Portfolio Filters  -->
-                
-                
                     
-                <div class="portfolio-items">
+        <div class="portfolio-items">
                     <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded logos">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
@@ -320,6 +309,8 @@ title: Portfolio
                         </div>
                     </div>
                 </div>
+                </div>
+                {% include sidebar.html %}
             </div>
         </div>
 </section>

@@ -22,14 +22,7 @@ markdown: kramdown
 
   
 #pageinitiator holds the number of posts per page
-#gems:
-#  - octopress-paginate
-#paginate_path: "/blog/page:num"
+gems: [jekyll-paginate]
 
-#pagination:
-# # collection:   post
-#  per_page:     1             # maximum number of items per page 
-#  limit:        false              # Maximum number of pages to paginate (false for unlimited)
-# # permalink:    blog/page:num/     # pagination path (relative to template page)
-##  title_suffix: " - page :num" # Append to template's page title
-# 
+paginate: 1
+paginate_path: "/blog/page:num/"

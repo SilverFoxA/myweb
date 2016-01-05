@@ -6,6 +6,7 @@ title: Courses
 <section id="portfolio">
         <div class="container">
             <div class="row">
+            <div class="col-md-9 col-sm-7">
             <div id="filters" class="sixteen columns">
                 <ul class="clearfix">
                     <li><a id="all" href="#" data-filter="*" class="active"><h5>All</h5></a></li>
@@ -21,7 +22,7 @@ title: Courses
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
                                 <div class="portfolio-thumb">
-                                   <a href="#"> <img src="{{site.baseurl}}/images/portfolio/6.jpg" class="img-responsive" alt=""> </a>
+                                   <a href="course_detail.html"> <img src="{{site.baseurl}}/images/portfolio/6.jpg" class="img-responsive" alt=""> </a>
                                 </div>
 <!--
                                 <div class="portfolio-view">
@@ -33,7 +34,7 @@ title: Courses
 -->
                             </div>
                             <div class="portfolio-info ">
-                              <a href="#" style="color:black;"> 
+                              <a href="" style="color:black;"> 
                                 <span><h2 style="font-weight:400;">Introduction to Big Data</h2><span class="upcoming"> Upcomming</span></span>
                                 <h5 style="font-weight:200;">Her we will impart basics about data science to the members.</h5>
                                 </a>
@@ -133,6 +134,8 @@ title: Courses
                         </div>
                     </div>
                 </div>
+                </div>
+                {% include sidebar.html %}
             </div>
         </div>
 </section>

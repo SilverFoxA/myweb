@@ -16,7 +16,9 @@
   background-position: top;
   background-size: contain;
 }
-
+li.active{
+color: rebeccapurple;
+}
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -1883,3 +1885,8 @@ a.read-more:hover{
 .single-features h2{
   margin-bottom: 15px;
 }
+
+.nav li a {
+    color: black;
+}
+

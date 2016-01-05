@@ -22,13 +22,7 @@
                             </div>
                     <div class="collapse navbar-collapse">
                     <ul class="main-nav nav navbar-nav navbar-right">
-                        <li class="active"><a class="page-link" href="{{site.baseurl}}/" style="color:black;">Home</a></li>
-                                    {% for my_page in site.pages %}
-                                    {% if my_page.title %}
-                                    <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}" style="color:black;">
-                                        {{ my_page.title }}</a></li>
-                                    {% endif %}
-                                    {% endfor %}
+                        {% include nav.html %}
                     </ul>
                     </div>
            
